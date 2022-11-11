@@ -1,7 +1,7 @@
-__author__ = 'akeshavan'
 from jinja2 import Environment, FileSystemLoader
 import os
 import simplejson as json
+
 
 def load_json(filename):
     """Load data from a json file
